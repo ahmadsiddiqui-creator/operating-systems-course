@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Operating Systems | Course Portfolio</title>
+<meta name="description" content="AI-enhanced Operating Systems course portfolio for undergraduate engineering students.">
+<style>
+:root{--navy:#17324d;--blue:#2d6688;--pale:#eef5fa;--ink:#243342;--muted:#607080;--line:#d7e1e8;--white:#fff;--gold:#f1c66d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#f8fafc}
+header{background:linear-gradient(130deg,#17324d,#2d6688);color:white;padding:2.6rem max(1.2rem,calc((100% - 1080px)/2)) 2.4rem}
+header .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;color:#d8eaf5;font-weight:700}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;margin:.6rem 0}
+header p{max-width:760px;color:#edf6fb}
+nav{position:sticky;top:0;z-index:10;background:white;border-bottom:1px solid var(--line);display:flex;gap:.3rem;overflow-x:auto;padding:.7rem max(1rem,calc((100% - 1080px)/2))}
+nav a{color:var(--navy);text-decoration:none;padding:.4rem .65rem;border-radius:8px;white-space:nowrap;font-size:.92rem}
+nav a:hover,nav a:focus{background:var(--pale)}
+main{max-width:1080px;margin:0 auto;padding:1.2rem}
+section{scroll-margin-top:5rem;margin:1.2rem 0;background:white;border:1px solid var(--line);border-radius:16px;padding:clamp(1rem,3vw,1.7rem);box-shadow:0 4px 16px #193b5210}
+h2{color:var(--navy);margin-top:0;font-size:1.55rem}h3{color:var(--blue);margin-bottom:.35rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{background:#f7fafc;border:1px solid var(--line);padding:1rem;border-radius:12px}
+.tag{display:inline-block;background:#e5f0f7;color:#204f6b;padding:.18rem .55rem;border-radius:99px;font-size:.8rem;font-weight:700}
+table{border-collapse:collapse;width:100%;font-size:.94rem}th,td{padding:.65rem;text-align:left;border:1px solid var(--line);vertical-align:top}th{background:var(--pale);color:var(--navy)}
+.table-wrap{overflow-x:auto}
+button,.button{background:var(--navy);color:white;border:0;padding:.65rem .95rem;border-radius:8px;cursor:pointer;text-decoration:none;display:inline-block;font:inherit}
+button:hover,.button:hover{background:var(--blue)}
+input,select,textarea{font:inherit;padding:.45rem;border:1px solid #aebfca;border-radius:6px;max-width:100%}
+label{display:inline-block;margin:.3rem .6rem .3rem 0}
+.notice{background:#fff8e7;border-left:4px solid var(--gold);padding:.8rem 1rem;border-radius:6px}
+.small{font-size:.9rem;color:var(--muted)}
+footer{text-align:center;padding:2rem 1rem;color:var(--muted)}
+ul{padding-left:1.3rem}
+#quiz-result,#sim-output{margin-top:1rem;padding:1rem;background:var(--pale);border-radius:8px}
+code{background:#eef2f5;padding:.1rem .3rem;border-radius:4px}
+@media(max-width:600px){main{padding:.7rem}section{padding:1rem}nav{position:static}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">AI-Enhanced Smart Course Design Portfolio</div>
+  <h1>Operating Systems</h1>
+  <p>Undergraduate Engineering Course | Course code: <strong>U24CD401</strong> | Core course | 3 credits</p>
+  <p>This learning portal brings together course outcomes, unit-wise coverage, weekly planning, assessment information and practice activities.</p>
+  <span class="tag">Academic Year 2026–27</span>
+</header>
+<nav aria-label="Main navigation">
+<a href="#overview">Overview</a><a href="#outcomes">Outcomes</a><a href="#syllabus">Syllabus</a><a href="#schedule">Weekly plan</a><a href="#assessment">Assessment</a><a href="#case">Case study</a><a href="#simulator">Simulator</a><a href="#ai-policy">AI policy</a><a href="#contact">Contact</a>
+</nav>
+<main>
+<section id="overview">
+<h2>Course Overview</h2>
+<p>An Operating System manages computer hardware and software resources and provides services for application programs. This course introduces OS structure, process management, CPU scheduling, synchronization, deadlocks, memory and virtual memory, file systems, secondary storage, protection and security.</p>
+<div class="grid">
+<div class="card"><h3>Course details</h3><p><b>Code:</b> U24CD401<br><b>Category:</b> Core<br><b>Credits:</b> 3<br><b>Weekly lectures:</b> 3<br><b>CIE / SEE:</b> 40 / 60</p></div>
+<div class="card"><h3>Learning approach</h3><p>Short explanations, worked examples, case-based discussion, quizzes, simulation and reflective feedback.</p></div>
+<div class="card"><h3>Recommended books</h3><p>Modern Operating Systems, A. S. Tanenbaum & Herbert Bos, 5th ed. (2022).<br>Operating System Concepts, Silberschatz, Galvin & Gagne, 10th ed. (as listed in the supplied syllabus).</p></div>
+</div>
+<p class="notice"><b>Course-code check:</b> The supplied syllabus shows U24CD401, while the supplied CIE-I question-paper header shows U24CD504. Please confirm the official code with the department before final publication.</p>
+</section>
+
+<section id="outcomes">
+<h2>Course Outcomes</h2>
+<p>By the end of the course, students should be able to:</p>
+<div class="grid">
+<div class="card"><span class="tag">CO1 · Understand</span><p>Explain fundamental operating-system concepts, architecture, services and functions.</p></div>
+<div class="card"><span class="tag">CO2 · Apply / Analyze</span><p>Apply and compare CPU scheduling algorithms and explain synchronization mechanisms.</p></div>
+<div class="card"><span class="tag">CO3 · Analyze</span><p>Analyze deadlock conditions and select suitable prevention, avoidance, detection or recovery strategies.</p></div>
+<div class="card"><span class="tag">CO4 · Analyze</span><p>Compare paging, segmentation, demand paging and page-replacement approaches.</p></div>
+<div class="card"><span class="tag">CO5 · Apply</span><p>Explain file-system and storage-management mechanisms and demonstrate basic Linux file and permission administration in a safe lab.</p></div>
+</div>
+<p class="small">These are measurable planning versions of the outcomes in the supplied syllabus. Confirm any revised outcome wording with the department before formal adoption.</p>
+</section>
+
+<section id="syllabus">
+<h2>Unit-wise Syllabus</h2>
+<div class="grid">
+<div class="card"><h3>Unit I — Introduction & System Structures</h3><p>Role and definition of an OS; computer-system operation; storage structure; OS structure and operations; system architectures; multiprogramming and multitasking; process, memory, storage, protection and security; system calls, system programs and system boot.</p></div>
+<div class="card"><h3>Unit II — Processes, Scheduling & Deadlocks</h3><p>Process concepts and scheduling; process operations; IPC; client/server communication; FCFS, SJF, Priority and Round Robin; critical-section problem, Peterson’s solution, synchronization, Dining Philosophers, monitors; deadlock characterization, prevention, avoidance, detection and recovery.</p></div>
+<div class="card"><h3>Unit III — Memory & Storage Management</h3><p>Swapping, contiguous allocation, paging, page tables, segmentation; demand paging, copy-on-write, page replacement, frame allocation, thrashing, memory-mapped files, kernel memory; file concepts, access methods, directories, mounting, sharing and protection.</p></div>
+<div class="card"><h3>Unit IV — File Systems & Secondary Storage</h3><p>File-system structure and implementation; directory implementation; allocation methods; free-space management; efficiency, performance, recovery, log-structured file systems and NFS; mass storage, disks, disk attachment, RAID, stable storage and tertiary storage.</p></div>
+<div class="card"><h3>Unit V — Protection & Security</h3><p>Protection goals and principles; domains, access matrix, access-control implementation and revocation; security problems, program and network threats, cryptography, authentication, security defences, firewalls and Linux case study.</p></div>
+</div>
+</section>
+
+<section id="schedule">
+<h2>Indicative 15-Week Teaching Plan</h2>
+<p class="small">This is a planning template, not an official institutional calendar. Update it to match approved teaching dates, holidays and assessment windows.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Week</th><th>Coverage</th><th>Learning activity / evidence</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>OS role, services and computer-system operation</td><td>Think-pair-share; diagnostic quiz</td></tr>
+<tr><td>2</td><td>OS structures, architectures, multiprogramming and multitasking</td><td>Architecture diagram; exit ticket</td></tr>
+<tr><td>3</td><td>System calls, system programs and boot process</td><td>Command-tracing discussion; short answers</td></tr>
+<tr><td>4</td><td>Processes, process states, IPC</td><td>Process-state activity; quiz</td></tr>
+<tr><td>5</td><td>FCFS, SJF, Priority and Round Robin scheduling</td><td>Use the simulator; calculate waiting and turnaround times</td></tr>
+<tr><td>6</td><td>Synchronization, critical section, monitors and Dining Philosophers</td><td>Concurrency role-play; concept check</td></tr>
+<tr><td>7</td><td>Deadlocks and handling strategies</td><td>Resource-allocation case study</td></tr>
+<tr><td>8</td><td>Swapping, contiguous allocation, paging and segmentation</td><td>Memory-layout worksheet</td></tr>
+<tr><td>9</td><td>Virtual memory, demand paging, replacement and thrashing</td><td>Page-reference trace exercise</td></tr>
+<tr><td>10</td><td>File concepts, directories, mounting, sharing and protection</td><td>Directory-tree and permission task</td></tr>
+<tr><td>11</td><td>File-system implementation and allocation</td><td>Compare allocation methods</td></tr>
+<tr><td>12</td><td>File-system recovery, NFS, disks and RAID</td><td>Storage-failure case discussion</td></tr>
+<tr><td>13</td><td>Protection, domains, access matrix and access control</td><td>Access-matrix exercise</td></tr>
+<tr><td>14</td><td>Threats, cryptography, authentication, firewalls and Linux security</td><td>Safe lab activity; practical checklist</td></tr>
+<tr><td>15</td><td>Revision and course reflection</td><td>Concept map; summative review; exit ticket</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="assessment">
+<h2>Assessment Plan</h2>
+<div class="grid">
+<div class="card"><h3>Continuous Internal Evaluation</h3><p><b>40 marks</b> as indicated in the supplied syllabus. The specific breakup should follow the department’s approved scheme.</p></div>
+<div class="card"><h3>Semester-End Examination</h3><p><b>60 marks</b> as indicated in the supplied syllabus.</p></div>
+<div class="card"><h3>Formative practice</h3><p>Short quizzes, scheduling worksheets, case-study reports, memory traces, exit tickets and safe Linux practice.</p></div>
+</div>
+<h3>Question-paper quality checks</h3>
+<ul><li>Verify total marks, exam duration and course code.</li><li>Check coverage of the taught units and approved course outcomes.</li><li>Ensure Bloom’s Taxonomy labels reflect the actual cognitive task.</li><li>Review ambiguity, answer-key correctness, difficulty and accessibility.</li></ul>
+<p class="small">Do not treat illustrative marks or sample attainment values as real student results.</p>
+</section>
+
+<section id="case">
+<h2>Experiential Learning Case: Campus Server Slowdown</h2>
+<p><b>Scenario:</b> During course registration, a campus server becomes slow. Several processes compete for CPU time, memory use rises, and one process waits for a resource held by another. Students report delayed responses.</p>
+<h3>Team task</h3>
+<ol><li>Identify what evidence should be collected before changing system settings.</li><li>Explain how waiting time and turnaround time differ.</li><li>Compare how FCFS and Round Robin may affect responsiveness.</li><li>Explain the four necessary deadlock conditions and one prevention strategy.</li><li>Suggest safe checks for memory pressure, storage and file permissions.</li></ol>
+<h3>Deliverable and rubric</h3>
+<p>Submit a one-page incident report with the diagnosis, two possible solutions, the selected action, risks and reflection. Suggested 20-mark rubric: concept accuracy (5), evidence/calculations (5), comparison (4), feasibility and safety (3), communication and reflection (3).</p>
+</section>
+
+<section id="simulator">
+<h2>Interactive Learning Activity: Round Robin Simulator</h2>
+<p>Enter positive integer burst times. For this introductory version, all processes are assumed to arrive at time zero. Run the activity, then compare the result with your hand calculations.</p>
+<label>Burst times (comma separated): <input id="bursts" value="5,3,8,6" aria-label="Burst times"></label>
+<label>Time quantum: <input id="quantum" type="number" min="1" step="1" value="2" style="width:5rem" aria-label="Time quantum"></label>
+<button type="button" id="run-sim">Run simulation</button>
+<div id="sim-output" aria-live="polite">Simulation results will appear here.</div>
+</section>
+
+<section id="ai-policy">
+<h2>Responsible AI Use</h2>
+<ul>
+<li>Use AI only for activities permitted by the instructor, such as brainstorming, explanations, practice questions and debugging support.</li>
+<li>Verify technical claims and calculations against course materials and trusted references.</li>
+<li>Disclose substantive AI assistance when required by the instructor.</li>
+<li>Do not fabricate references, results, screenshots or logs.</li>
+<li>Do not submit personal data, student marks or confidential institutional information to unapproved public AI tools.</li>
+<li>Students must be able to explain their own submissions. AI detectors alone are not proof of misconduct.</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Faculty Contact & Student Support</h2>
+<p><b>Course coordinator:</b> [Add faculty name]</p>
+<p><b>Department:</b> Computer Science and Engineering</p>
+<p><b>Institution:</b> Lords Institute of Engineering and Technology</p>
+<p><b>Contact email / office hours:</b> [Add official contact details before publishing]</p>
+<p class="small">Replace bracketed placeholders with approved details. Do not publish private contact information without permission.</p>
+</section>
+</main>
+<footer>AI-Enhanced Operating Systems Course Portfolio · For teaching and learning support</footer>
+<script>
+document.getElementById('run-sim').addEventListener('click', function(){
+  const out=document.getElementById('sim-output');
+  const raw=document.getElementById('bursts').value.trim();
+  const bursts=raw.split(',').map(v=>Number(v.trim()));
+  const q=Number(document.getElementById('quantum').value);
+  if(!raw || bursts.some(v=>!Number.isInteger(v)||v<=0) || !Number.isInteger(q)||q<=0){
+    out.textContent='Please enter positive integer burst times and a positive integer time quantum.'; return;
+  }
+  const remaining=bursts.slice(), completion=Array(bursts.length).fill(0), gantt=[];
+  let t=0, safety=0;
+  while(remaining.some(v=>v>0)){
+    for(let i=0;i<remaining.length;i++){
+      if(remaining[i]===0) continue;
+      const run=Math.min(q,remaining[i]);
+      gantt.push('P'+(i+1)+' ('+t+'–'+(t+run)+')');
+      t+=run; remaining[i]-=run;
+      if(remaining[i]===0) completion[i]=t;
+    }
+    safety++;
+    if(safety>100000){out.textContent='Workload is too large for this demo.';return;}
+  }
+  const rows=bursts.map((b,i)=>({p:'P'+(i+1),b, c:completion[i], tat:completion[i], w:completion[i]-b}));
+  const avgW=rows.reduce((a,r)=>a+r.w,0)/rows.length;
+  const avgT=rows.reduce((a,r)=>a+r.tat,0)/rows.length;
+  let html='<p><b>Gantt sequence:</b> '+gantt.join(' → ')+'</p><div class="table-wrap"><table><tr><th>Process</th><th>Burst</th><th>Completion</th><th>Turnaround</th><th>Waiting</th></tr>';
+  rows.forEach(r=>html+='<tr><td>'+r.p+'</td><td>'+r.b+'</td><td>'+r.c+'</td><td>'+r.tat+'</td><td>'+r.w+'</td></tr>');
+  html+='</table></div><p><b>Average waiting time:</b> '+avgW.toFixed(2)+' units<br><b>Average turnaround time:</b> '+avgT.toFixed(2)+' units</p>';
+  out.innerHTML=html;
+});
+</script>
+</body>
+</html>
